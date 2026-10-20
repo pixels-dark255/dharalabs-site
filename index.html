@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DharaLabs</title>
+<meta name="description" content="DharaLabs, Jaipur. Recycle. Print. Sustain. We turn waste plastic into useful products and build practical tools for Indian businesses.">
+<link rel="canonical" href="https://dharalabs.in/">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dharalabs.in/">
+<meta property="og:site_name" content="DharaLabs">
+<meta property="og:title" content="DharaLabs">
+<meta property="og:description" content="Recycle. Print. Sustain. Projects and products from DharaLabs, Jaipur.">
+<meta property="og:image" content="https://dharalabs.in/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --green:#1d3f22;      /* deep logo green: text, headings */
+    --leaf:#7f9a2e;       /* logo leaf green: accents only */
+    --mist:#f4f7ef;       /* pale green tint */
+    --line:#e3e9dc;
+    --ink:#2b3a2e;
+    --muted:#5f6d61;
+    --bg:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  img{display:block;max-width:100%;height:auto}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* 1. Header */
+  header.wrap{text-align:center;padding:72px 20px 56px}
+  header img{width:min(280px,64vw);margin:0 auto}
+  .motto{margin-top:22px;font-size:clamp(15px,2.4vw,18px);font-weight:400;letter-spacing:.32em;text-transform:uppercase;color:var(--green)}
+  .motto::before,.motto::after{content:"";display:inline-block;width:28px;height:1px;background:var(--leaf);vertical-align:middle;margin:0 14px 0 0}
+  .motto::after{margin:0 0 0 2px}
+
+  /* 2. Gallery */
+  .gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;padding:8px 0 24px}
+  .gallery figure{grid-column:span 2}
+  .gallery figure:nth-child(n+4){grid-column:span 3}
+  .gallery figure{background:var(--mist);border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .gallery img{width:100%;height:auto}
+  .gallery figcaption{border-top:1px solid var(--line);padding:14px 18px 16px;font-size:15px;color:var(--muted)}
+
+  /* 3-4. Products */
+  .products{padding:56px 0 80px;text-align:center}
+  .products h2{font-size:13px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
+  .card{display:inline-flex;align-items:center;gap:18px;text-align:left;text-decoration:none;padding:18px 26px 18px 18px;border:1px solid var(--line);border-radius:16px;background:#fff;max-width:100%;transition:border-color .2s,box-shadow .2s,transform .2s}
+  .card:hover,.card:focus-visible{border-color:var(--leaf);box-shadow:0 8px 28px rgba(29,63,34,.08);transform:translateY(-2px);outline:none}
+  .card img{width:56px;height:56px;flex:none;border-radius:12px}
+  .card strong{display:block;font-size:19px;font-weight:600;color:#0f2a4a}
+  .card span{display:block;font-size:15px;color:var(--muted)}
+  .card .arrow{margin-left:6px;font-size:20px;color:var(--leaf)}
+
+  /* 5. Footer */
+  footer{border-top:1px solid var(--line);padding:28px 0 36px;text-align:center;font-size:14px;color:var(--muted)}
+  footer a{text-decoration:none;border-bottom:1px solid transparent}
+  footer a:hover{color:var(--green);border-bottom-color:var(--leaf)}
+  footer .dot{margin:0 10px;color:var(--leaf)}
+
+  @media (max-width:860px) and (min-width:561px){
+    .gallery{grid-template-columns:1fr 1fr}
+    .gallery figure,.gallery figure:nth-child(n+4){grid-column:auto}
+  }
+  @media (max-width:560px){
+    header.wrap{padding:52px 20px 40px}
+    .motto{letter-spacing:.22em}
+    .motto::before,.motto::after{display:none}
+    .gallery{gap:18px;grid-template-columns:1fr}
+    .gallery figure,.gallery figure:nth-child(n+4){grid-column:auto}
+    .card{padding:16px}
+    footer .dot{display:block;height:4px;visibility:hidden}
+  }
+  @media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <img src="assets/dharalabs-logo.webp" width="720" height="580" alt="DharaLabs logo">
+  <p class="motto">Recycle. Print. Sustain.</p>
+</header>
+
+<main class="wrap">
+  <section class="gallery" aria-label="Project photos">
+    <figure>
+      <img src="assets/photos/recycled-not-weak.webp" width="1080" height="1341" loading="lazy" decoding="async" alt="Think recycled means weak? Think again.">
+      <figcaption>Think recycled means weak? Think again.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/photos/everyday-use.webp" width="1080" height="1341" loading="lazy" decoding="async" alt="One recycled filament. Endless possibilities.">
+      <figcaption>One recycled filament. Endless possibilities.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/photos/strong-by-design.webp" width="1080" height="1341" loading="lazy" decoding="async" alt="Strong by design: from discarded PET bottles to products built to last.">
+      <figcaption>Strong by design: from discarded PET bottles to products built to last.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/photos/waste-mindset.webp" width="1080" height="1080" loading="lazy" decoding="async" alt="Waste isn’t the material. The mindset is.">
+      <figcaption>Waste isn’t the material. The mindset is.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/photos/bottle-to-prototype.webp" width="1080" height="1080" loading="lazy" decoding="async" alt="This bottle won’t become another bottle. It could become your next prototype.">
+      <figcaption>This bottle won’t become another bottle. It could become your next prototype.</figcaption>
+    </figure>
+  </section>
+
+  <section class="products">
+    <h2>Our other products</h2>
+    <a class="card" href="https://alerts.dharalabs.in" target="_blank" rel="noopener">
+      <img src="assets/sagarlekh-mark.svg" width="56" height="56" alt="">
+      <div>
+        <strong>Sagarlekh</strong>
+        <span>Plain-English DGFT alerts for Indian exporters</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    &copy; DharaLabs, Jaipur<span class="dot">&middot;</span><a href="mailto:dharalabs.co@gmail.com">dharalabs.co@gmail.com</a><span class="dot">&middot;</span><a href="https://www.instagram.com/dharalabs_/" target="_blank" rel="noopener">Instagram @dharalabs_</a>
+  </div>
+</footer>
+
+</body>
+</html>
